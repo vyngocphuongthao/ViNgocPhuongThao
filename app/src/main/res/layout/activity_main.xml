@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditText
+        android:id="@+id/numa"
+        android:onClick="Tinh"
+        android:layout_margin="10dp"
+        android:hint="number a"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/numb"
+        android:onClick="Tinh"
+        android:layout_margin="10dp"
+        android:hint="number b"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/txtview"
+        android:onClick="Tinh"
+        android:background="@color/green"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:hint="Ket qua"
+        android:gravity="center"
+        />
+    <Button
+        android:id="@+id/btntong"
+        android:onClick="Tinh"
+        android:layout_gravity="center"
+        android:text="Tong"
+        android:layout_width="match_parent"
+        android:layout_height="35dp" />
+    <Button
+        android:id="@+id/btnhieu"
+        android:onClick="Tinh"
+        android:layout_gravity="center"
+        android:text="Hieu"
+        android:layout_width="match_parent"
+        android:layout_height="35dp" />
+    <Button
+        android:id="@+id/btnthuong"
+        android:onClick="Tinh"
+        android:layout_gravity="center"
+        android:text="Thuong"
+        android:layout_width="match_parent"
+        android:layout_height="35dp" />
+    <Button
+        android:id="@+id/btntich"
+        android:onClick="Tinh"
+        android:layout_gravity="center"
+        android:text="Tich"
+        android:layout_width="match_parent"
+        android:layout_height="35dp" />
+    <Button
+        android:id="@+id/btnthoat"
+        android:onClick="Tinh"
+        android:layout_gravity="center"
+        android:text="Thoat"
+        android:layout_width="match_parent"
+        android:layout_height="35dp" />
+
+</LinearLayout>
